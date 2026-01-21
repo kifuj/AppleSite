@@ -1,0 +1,185 @@
+
+
+
+.ipad {
+    background-image: url(ipad.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    padding: 50px;
+}
+
+.airpod {
+    background-image: url(airpod.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    padding: 50px;
+
+}
+
+.watchseries {
+    background-image: url(watch.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    padding: 50px;
+}
+
+.Ipad2 {
+    background-image: url(Ipad2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    padding: 50px;
+}
+
+.Mac {
+    background-image: url(Img\ -\ Deux\ MacBook\ Air\ bleu\ ciel\ ouverts\ forment\ une\ flèche\,\ soulignant\ la\ finesse\ du\ profil.png);
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    padding: 50px;
+}
+
+
+
+.Trade {
+    background-image: url(Img\ -\ Côte\ à\ côte\,\ une\ main\ tenant\ un\ iPhone\ 13\ avec\ une\ coque\ en\ silicone\ décorée\ de\ stickers\ sur\ la\ face\ arrière\ effectue\ un\ échange\ avec\ une\ main\ tenant\ un\ coffret\ du\ nouvel\ iPhone\ 17\ Pro.png);
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    padding: 50px;
+}
+.IMG {
+    width: 430;
+    height: 33;
+    top: 58px;
+    left: 256px;
+    opacity: 1;
+    padding: 10px;
+
+}
+
+
+#Txt1 {
+    font-family: Helvetica Neue;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 19.2px;
+    line-height: 25px;
+    letter-spacing: 0.23px;
+    text-align: center;
+    vertical-align: middle
+}
+
+#Txt2 {
+    font-family: Helvetica Neue;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36.6px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#Txt3 {
+    font-family: Helvetica Neue;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 19.5px;
+    line-height: 25px;
+    letter-spacing: 0.23px;
+    width: 220px;
+    margin: 0% auto;
+}
+
+#Txt4 {
+    font-family: Helvetica Neue;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: 0.23px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#Txt5 {
+    font-family: Helvetica Neue;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36.1px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#Txt6 {
+    font-family: Helvetica Neue;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 19.2px;
+    line-height: 25px;
+    letter-spacing: 0.23px;
+    width: 400px;
+    margin: 0% auto;
+
+}
+
+
+.btn1 {
+    width: 120;
+    height: 36;
+    top: 143px;
+    left: 362.86px;
+    opacity: 1;
+    border-radius: 980px;
+    padding: 8px 16px;
+    margin: 5px;
+}
+
+.btn2 {
+    width: 81.83999633789062;
+    height: 36;
+    top: 143px;
+    left: 497.28px;
+    opacity: 1;
+    border-radius: 980px;
+    border-width: 1px;
+    padding: 8px 16px;
+    margin: 5px
+}
+
+
+.carousel-side {
+            width: 15%;
+            height: 667.25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+.carousel-side img {
+            width: 100%;
+            height:  ;
+        }
+
+.carousel-center {
+            flex:1;
+            height: 667.25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+.carousel-center img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+        }
