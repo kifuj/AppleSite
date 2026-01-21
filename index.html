@@ -12,6 +12,7 @@
     <meta property="og:locale" content="fr_FR">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,116 +22,123 @@
 </header>  
     <main>
     <div class="container-fluid text-center  ">
-        <div class="row g-2 row-cols-2 ">
-            <div class="p-2 col-12 col-lg-6"> 
-                <div class=" col ipad ">
-                    <img src="ipadair.png" alt="IpadAir" class="IMG">
+        <section class="row g-2 row-cols-1 row-cols-lg-2 ">
+            <!--Ipad Air-->
+            <article class="p-2 col"> 
+                <div class=" col ipad bg-Card">
+                    <img src="ipadair.png" alt="IpadAir" class="IMG" loading="eager">
                     <div class="row ">
                         <div class="col-12">
-                            <p id="Txt1">Maintenant boosté par la puce M3.</p>
+                            <p class="TXT-P">Maintenant boosté par la puce M3.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <a class=" btn btn-primary btn1" href="#">En savoir plus</a>
-                            <a class="btn btn-outline-primary btn2" href="#">Acheter</a>
+                            <a class=" btn btn-primary btn1" href="#" aria-label="En Savoir plus sur l'IpadAir">En savoir plus</a>
+                            <a class="btn btn-outline-primary btn2" href="#" aria-label="Acheter L'IpadAir">Acheter</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="p-2 col-12 col-lg-6">
-                <div class="col airpod ">
-                    <h2 id="Txt2">AirPods Pro 3</h2>
+            </article>
+            <!--Airpod-->
+            <article class="p-2 col">
+                <div class="col airpod bg-Card">
+                    <h2 class="TXT-H">AirPods Pro 3</h2>
                     <div class="row">
                         <div class="col-12 ">
-                            <p id="Txt3">La meilleure Réduction active du bruit intra-auriculaire au monde.</p>
+                            <p class="TXT-P">La meilleure Réduction active du bruit intra-auriculaire au monde.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <a class=" btn btn-primary btn1" href="#">En savoir plus</a>
-                            <a class="btn btn-outline-primary btn2" href="#">Acheter</a>
+                            <a class=" btn btn-primary btn1" href="#" aria-label="En savoir plus sur les AirPords Pro3">En savoir plus</a>
+                            <a class="btn btn-outline-primary btn2" href="#" aria-label="Acheter les AirPods Pro3">Acheter</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="p-2 col-12 col-lg-6">
-                <div class="col watchseries">
-                    <img src="apple_watch.png" alt="Apple Watch" class="IMG">
+            </article>
+            <!--Apple Watch-->
+            <article class="p-2 col">
+                <div class="col watchseries bg-Card">
+                    <img src="apple_watch.png" alt="Apple Watch" class="IMG" loading="eager">
                     <div class="row ">
                         <div class="col-12">
-                            <p id="Txt4">L'Apple Watch ultime pour votre santé.</p>
+                            <p class="TXT-P">L'Apple Watch ultime pour votre santé.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <a class=" btn btn-primary btn1" href="#">En savoir plus</a>
-                            <a class="btn btn-outline-primary btn2" href="#">Acheter</a>
+                            <a class=" btn btn-primary btn1" href="#" aria-label="En savoir plus sur l'Apple Watch">En savoir plus</a>
+                            <a class="btn btn-outline-primary btn2" href="#" aria-label="Acheter l'Apple Watch">Acheter</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="p-2 col-12 col-lg-6">
-                <div class="col Ipad2">
-                    <h2 id="Txt5">iPad</h2>
+            </article>
+            <!--Ipad 2-->
+            <article class="p-2 col-12 col-lg-6">
+                <div class="col Ipad2 bg-Card">
+                    <h2 class="TXT-H">iPad</h2>
                     <div class="row">
                         <div class="col-12 ">
-                            <p id="Txt6">Maintenant avec la vitesse de la puce A16 et un stockage de base doublé.</p>
+                            <p class="TXT-P">Maintenant avec la vitesse de la puce A16 et un stockage de base doublé.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <a class=" btn btn-primary btn1" href="#">En savoir plus</a>
-                            <a class="btn btn-outline-primary btn2" href="#">Acheter</a>
+                            <a class=" btn btn-primary btn1" href="#" aria-label="En savoir plus sur l'Ipad">En savoir plus</a>
+                            <a class="btn btn-outline-primary btn2" href="#" aria-label="Acheter l'Ipad">Acheter</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="p-2 col-12 col-lg-6">
-                <div class="col Mac">
-                    <h2>MacBook Air</h2>
+            </article>
+            <!--MacBook Air-->
+            <article class="p-2 col">
+                <div class="col Mac bg-Card">
+                    <h2 class="TXT-H">MacBook Air</h2>
                     <div class="row">
                         <div class="col">
-                            <p>Finition bleu ciel. Performance de haut vol avec la M4</p>
+                            <p class="TXT-P">Finition bleu ciel. Performance de haut vol avec la M4</p>
                         </div>
                         <div class="row">
                         <div class="col-12">
-                            <a class=" btn btn-primary btn1" href="#">En savoir plus</a>
-                            <a class="btn btn-outline-primary btn2" href="#">Acheter</a>
+                            <a class=" btn btn-primary btn1" href="#" aria-label="En savoir plus sur le MacBokk Air">En savoir plus</a>
+                            <a class="btn btn-outline-primary btn2" href="#" aria-label="Acheter le MacBook Air">Acheter</a>
                         </div>
                     </div>
                     </div>
                 </div>
-            </div>
-            <div class="p-2 col-12 col-lg-6">
-                <div class="col Trade">
-                    <img src="Heading_3.png" alt="TradeIn" class="IMG">
+            </article>
+            <!--TradeIn-->
+            <article class="p-2 col">
+                <div class="col Trade bg-Card">
+                    <img src="Heading_3.png" alt="TradeIn" class="IMG" loading="eager">
                     <div class="row">
                         <div class="col">
-                            <p>Économisez de 190 € à 780 € sur votre prochain achat en faisant reprendre un iPhone 13 ou plus récent3.</p>
+                            <p class="TXT-P">Économisez de 190 € à 780 € sur votre prochain achat en faisant reprendre un iPhone 13 ou plus récent3.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <a class=" btn btn-primary btn1" href="#">Obtenir une estimation</a>
+                            <a class=" btn btn-primary btn1" href="#" aria-label="Obtenir une estimation sur votre prochain achat">Obtenir une estimation</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="container-fluid">
+            </article>
+        </section>
+        <!--carrousel-->
+        <section class="container-fluid">
             <div class="row">
                 <div class="col-lg-3 carousel-side">
-                    <img src="Link.png" alt="Previous">
+                    <img src="Link.png" alt="Autre Film">
                 </div>
                 <div class="col-12 col-lg-6 carousel-center">
                     <img src="Link3.png" alt="The Family Plan 2">
                 </div>
                 <div class="col-lg-3 carousel-side">
-                    <img src="Link2.png" alt="Next">
+                    <img src="Link2.png" alt="Autre Film">
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 </main>
 
