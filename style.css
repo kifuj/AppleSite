@@ -7,28 +7,28 @@
 }
 
 .ipad {
-    background-image: url(ipad.jpg);
+    background-image: url(Images/ipad.jpg);
 }
 
 .airpod {
-    background-image: url(airpod.jpg);
+    background-image: url(Images/airpod.jpg);
 }
 
 .watchseries {
-    background-image: url(watch.jpg);
+    background-image: url(Images/watch.jpg);
 }
 
 .Ipad2 {
-    background-image: url(Ipad2.jpg);
+    background-image: url(Images/Ipad2.jpg);
 }
 
 .Mac {
-    background-image: url(Img\ -\ Deux\ MacBook\ Air\ bleu\ ciel\ ouverts\ forment\ une\ flèche\,\ soulignant\ la\ finesse\ du\ profil.png);
+    background-image: url(Images/MacBook.png);
 }
 
 
 .Trade {
-    background-image: url(Img\ -\ Côte\ à\ côte\,\ une\ main\ tenant\ un\ iPhone\ 13\ avec\ une\ coque\ en\ silicone\ décorée\ de\ stickers\ sur\ la\ face\ arrière\ effectue\ un\ échange\ avec\ une\ main\ tenant\ un\ coffret\ du\ nouvel\ iPhone\ 17\ Pro.png);
+    background-image: url(Images/TradeIN.png);
 }
 
 /*gestion logo dans les cartes*/
