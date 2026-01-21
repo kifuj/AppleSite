@@ -159,7 +159,7 @@
 
 .carousel-side {
             width: 15%;
-            height: 667.25px;
+            height: 489.183px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -167,12 +167,12 @@
 
 .carousel-side img {
             width: 100%;
-            height:  ;
+            height: 489.183px ;
         }
 
 .carousel-center {
             flex:1;
-            height: 667.25px;
+            height: 489.183px;
             display: flex;
             align-items: center;
             justify-content: center;
